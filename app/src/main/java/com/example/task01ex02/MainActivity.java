@@ -16,8 +16,14 @@ public class MainActivity extends AppCompatActivity {
 
         btn=(Button)findViewById(R.id.btn);
     }
-
+    int x=0;
     public void Click(View view) {
 
+        x++;
+        btn.setText("This is a click number:"+x);
+
+        }
+
+
     }
-}
+
